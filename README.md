@@ -39,3 +39,7 @@ A Windows x64 executable file has also been included in `executables/OperatorFin
 The files in the `executables` folder have been published using the command:
 
 `dotnet publish -c Release -f netcoreapp3.1 -r win-x64 -o  output --self-contained false`
+
+## Screenshots
+
+![Console screenshot](assets/ConsoleScreenshot.png)
