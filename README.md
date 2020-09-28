@@ -20,8 +20,19 @@ This console program is built using the `.NET Core 3.1` framework.
 
 ## Building the project
 
-TODO
+To build the project, .NET Core 3.1 compatible SDK is required. More information here: <https://dotnet.microsoft.com/download>
+
+To build the project run `dotnet build` from the project root folder.
+
+To publish, run `dotnet publish`.
+
+To run the source code, run `dotnet run` command from the project root folder.
 
 ## Running the project
 
-TODO
+A Windows x64 executable file has also been included in `executables/OperatorFinder.exe`. To run it, a
+.NET Core 3.1 compatible runtime is required. More information here: <https://dotnet.microsoft.com/download>
+
+The files in the `executables` folder have been published using the command:
+
+`dotnet publish -c Release -f netcoreapp3.1 -r win-x64 -o  output --self-contained false`
