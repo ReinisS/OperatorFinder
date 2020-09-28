@@ -28,6 +28,9 @@ To publish, run `dotnet publish`.
 
 To run the source code, run `dotnet run` command from the project root folder.
 
+Alternatively, if you're using VS Code, you can run the project from the VS Code 'Run' tab. The necessary
+`.vscode/launch.json` file has been included.
+
 ## Running the project
 
 A Windows x64 executable file has also been included in `executables/OperatorFinder.exe`. To run it, a
